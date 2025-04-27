@@ -31,9 +31,9 @@ In addition to the monthly overview, we also created a Product-Specific Report, 
 
 Together, these tools provide Modecraft with a comprehensive, flexible way to monitor their business performance and identify opportunities for growth.
 
-#Monthly Analysis Report Dashboard
+## Monthly Analysis Report Dashboard
 1. Products that sold the most
-
+In order to create this analysis, we filtered out negative values (returns) to look for successful purchases only. Filtering for the date and year, we grouped the dataset by StockCode and got the sum of all items by quantity. By doing this and then sorting from greatest to least, we found the item numbers that were purchased the most. While we did consider including a list of least purchased items, it was redundant as many items held a quantity of '1' sold and would not display a very helpful statistic.
 2. Products that sold the least
 
 3. Products that generated the most revenue
