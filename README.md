@@ -58,7 +58,7 @@ In order to create this analysis, we filtered out negative values (returns) to l
 
 2. Products that generated the most revenue
 
-To create this analysis, we filtered
+To create this analysis, we created a new column caled revenue, grouped by the product and summed up the revenue column. By doing this and ordering it from greatest to least we 
 
 4. Products that generated the least revenue
 
