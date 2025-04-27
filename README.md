@@ -31,3 +31,19 @@ In addition to the monthly overview, we also created a Product-Specific Report, 
 
 Together, these tools provide Modecraft with a comprehensive, flexible way to monitor their business performance and identify opportunities for growth.
 
+#Monthly Analysis Report Dashboard
+1. Products that sold the most
+
+2. Products that sold the least
+
+3. Products that generated the most revenue
+
+4. Products that generated the least revenue
+
+5. Customers who bought the most
+
+6. Most popular days of the week
+
+7. Most popular times for purchase during the week
+
+8. Regions that earned the most money
