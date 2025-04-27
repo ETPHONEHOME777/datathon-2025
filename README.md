@@ -26,7 +26,8 @@ In addition to the monthly overview, we also created a Product-Specific Report, 
 
 Together, these tools provide Modecraft with a comprehensive, flexible way to monitor their business performance and identify opportunities for growth.
 
-Monthly Analysis Report
+--------------------------
+## Monthly Analysis Report
 
 For this part, we created a simple dashboard using Streamlit to allow for users to see a simple view of their monthly report.
 ![Dashboard screenshot](img/monthlyDashMain.png)
@@ -51,21 +52,6 @@ Finally, the dashboard also displays the total number of transactions (or total 
 Although the layout is simple, we believe that the data is shown here in such a way that is very easy to digest and understand.  The fact that you can download the individual tables as well allows for a user that wants to do further analysis with the data be able to do so without too much extra trouble.
 
 All in all, this small dashboard goes a long way in clearly displaying a monthly analysis report for Modecraft across various different metrics, allowing for a level of user customization that makes it useful and actionable for many different operations and needs.
-## Monthly Analysis Report Dashboard
-1. Products that sold the most
 
-In order to create this analysis, we filtered out negative values (returns) to look for successful purchases only. Filtering for the date and year, we grouped the dataset by StockCode and got the sum of all items by quantity. By doing this and then sorting from greatest to least, we found the item numbers that were purchased the most. While we did consider including a list of least purchased items, it was redundant, as many items held a quantity of '1' sold and would not display a very helpful statistic.
 
-2. Products that generated the most revenue
 
-To create this analysis, we created a new column caled revenue, grouped by the product and summed up the revenue column. By doing this and ordering it from greatest to least we 
-
-4. Products that generated the least revenue
-
-5. Customers who bought the most
-
-6. Most popular days of the week
-
-7. Most popular times for purchase during the week
-
-8. Regions that earned the most money
