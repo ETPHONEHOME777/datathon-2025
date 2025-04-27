@@ -30,7 +30,8 @@ Together, these tools provide Modecraft with a comprehensive, flexible way to mo
 ## Monthly Analysis Report
 
 For this part, we created a simple dashboard using Streamlit to allow for users to see a simple view of their monthly report.
-![Dashboard screenshot](img/monthlyDashMain.png)
+![Dashboard screenshot](img/monthlyDashMain.PNG)
+https://github.com/ETPHONEHOME777/datathon-2025/blob/main/img/montlyDashMain.png
 The interactive dashboard allows users to select for a specific month and year, and see the data for that specific time period only.
 
 It also allows the user to select for how many items they want to see on the data table, allowing for the user to select for the things they need at their convenience.
