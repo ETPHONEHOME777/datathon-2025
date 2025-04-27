@@ -9,11 +9,6 @@ To address this, we developed a Monthly Analysis Report that allows users to sel
 
 - Customers who made the highest number of purchases
 
-- Most popular days of the week for purchases
-
-- Most popular times of day during the week for customer activity
-
-- Regions that generated the highest revenue
 
 In addition to the monthly overview, we also created a Product-Specific Report, which displays:
 
@@ -31,3 +26,28 @@ In addition to the monthly overview, we also created a Product-Specific Report, 
 
 Together, these tools provide Modecraft with a comprehensive, flexible way to monitor their business performance and identify opportunities for growth.
 
+Monthly Analysis Report
+
+For this part, we created a simple dashboard using Streamlit to allow for users to see a simple view of their monthly report.
+![Dashboard screenshot](img/monthlyDashMain.png)
+The interactive dashboard allows users to select for a specific month and year, and see the data for that specific time period only.
+
+It also allows the user to select for how many items they want to see on the data table, allowing for the user to select for the things they need at their convenience.
+
+As mentioned previously, the dashboard displays 5 different stats:
+- Top-selling products for the period
+- Least-selling products for the period
+- Products that generated the most revenue for that period
+- Products that generated the least revenue for that period
+- Customers who made the highest number of purchases
+
+These stats allow for a user to clearly and easily see which products are popular, and which are best and worst for business overall.
+The customer stats are valuable as well, as it allows the user to see which vendors they've been working with the most.
+
+In order to make sure the stats were as clear as possible however, we first cleaned up the original Modecraft dataset by making sure the formatting of the date allowed for easier manipulation.  We then cleaned up the rows by dropping rows missing a date, missing a customerID, and any rows that had bad data in them (negetive prices and quantities of item bought, for example, were removed).  From this, we intend that the data displayed in the final dashboard is only the most relevant.
+
+Finally, the dashboard also displays the total number of transactions (or total number of data points, essentially), giving the user insight into the total activity for that month as well.
+
+Although the layout is simple, we believe that the data is shown here in such a way that is very easy to digest and understand.  The fact that you can download the individual tables as well allows for a user that wants to do further analysis with the data be able to do so without too much extra trouble.
+
+All in all, this small dashboard goes a long way in clearly displaying a monthly analysis report for Modecraft across various different metrics, allowing for a level of user customization that makes it useful and actionable for many different operations and needs.

@@ -86,7 +86,7 @@ def main():
     
     year = st.sidebar.number_input("Year", min_value=2010, max_value=2025, value=2011, step=1)
     month = st.sidebar.number_input("Month", min_value=1, max_value=12, value=11, step=1)
-    top_n = st.sidebar.slider("Number of items to display", 1, 100, 10)
+    top_n = st.sidebar.slider("Number of items to display", 1, 500, 20)
 
     df = load_data("data/Mode_Craft_Ecommerce_Data - Online_Retail.csv")
     df_month = timeFilterHelper(df, year, month)
@@ -103,10 +103,10 @@ def main():
     st.subheader(f"Bottom {top_n} Products by Units Sold")
     st.dataframe(get_product_low_seller(df_cull2).head(top_n))
     
-    st.subheader(f"Top {top_n} Products by Revenue")
+    st.subheader(f"Top {top_n} Products by Revenue (In British Pounds £)")
     st.dataframe(get_most_revenue(df_cull2).head(top_n))
     
-    st.subheader(f"Bottom {top_n} Products by Revenue")
+    st.subheader(f"Bottom {top_n} Products by Revenue (In British Pounds £)")
     st.dataframe(get_least_revenue(df_cull2).head(top_n))
     
     st.subheader(f"Top {top_n} Customers by Units Purchased")
